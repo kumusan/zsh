@@ -18,6 +18,8 @@ prompt agnoster
 autoload -U compinit
 compinit
 
+POWERLEVEL9K_MODE="nerdfont-complete"
+
 alias ll='exa -la'
 alias la='exa -a'
 alias l='exa'
@@ -36,6 +38,7 @@ alias gst='git status'
 alias gco='git checkout'
 alias gf='git fetch'
 alias gc='git commit'
+alias vlg='/usr/local/bin/v'
 
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
